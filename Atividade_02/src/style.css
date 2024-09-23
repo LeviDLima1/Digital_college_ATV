@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 body {
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(235, 235, 235);
 }
 
 .principal {
@@ -17,7 +17,27 @@ body {
         height: 500px;
         border: 1px outset;
     }
+    #submit {
+        width: 130px;
+        height: 40px;
+        border: 3px solid rgb(204, 35, 119);
+        border-radius: 8px;
+        position: absolute;
+        bottom: 70px;
+        font-size: 18px;
+        font-weight: bold;
+        transition: 200ms;
+    }
+
+    #submit:hover {
+
+        background-color: rgb(204, 35, 119);
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+    }
 }
+
 
 .header {
     width: 100%;
